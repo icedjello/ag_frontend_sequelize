@@ -1,0 +1,18 @@
+{
+  "name": "ag_frontend_sequelize",
+  "version": "1.0.0",
+  "description": "A frontend for Sequelize backend repo",
+  "main": "index.html",
+  "author": "Bamdad Fard",
+  "license": "MIT",
+  "dependencies": {
+    "ag-grid-community": "^26.1.0",
+    "ag-grid-enterprise": "^26.1.0",
+    "parcel-bundler": "^1.6.1",
+    "axios": "0.22.0"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  }
+}
